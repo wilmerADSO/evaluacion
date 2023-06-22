@@ -1,0 +1,67 @@
+#formulario{
+    background-color: rgb(2, 8, 85);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid;
+    border-color: #fff;
+    
+
+}
+h2{
+    background-color: rgba(210, 210, 244, 0.043);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.tabla{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+td{
+    width: 2%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-spacing: 0;
+   background-color: white;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+th{
+    background-color: white;
+}
+
+#formUpdate{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+
+
+}
+
+label{
+       
+    border-radius: 30px;
+    padding: 10px;
+    color: azure;
+    
+}
+
+button {
+    background: #fff; /* color de fondo */
+    color: #4741d7; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    padding: 10px 20px;
+    border-radius: 30px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }

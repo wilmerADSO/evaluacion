@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body id="formulario">
+    <form >
+        <h2>Listar Estudiantes</h2>
+        <div class="Listar" id="Listar">
+            <table id="tabla">
+                <thead>
+                    <th>CODIGO</th>
+                    <th>NOMBRE</th>
+                    <th>APELLIDOS</th>
+                    <th>CURSO</th>
+                    <th>NOTA 1</th>
+                    <th>NOTA 2</th>
+                    <th>NOTA 3</th>
+                </thead>
+
+            </table><br>
+        </br>
+            <button type="submit" id="btnListar">Consultar Datos</button>
+            <button type="submit" id="IDdelete">Eliminar Reprobados</button>
+            <div id="resultadosConsultar"></div>
+        </div>
+    </form>
+       
+
+    <div class="form" id="cl">
+        <h2>Actualizar Datos</h2>
+            
+        <form id="formUpate">
+            <label for="">Ingrese codigo: <input type="text" name="codigo" id="codigo" placeholder="CODIGO" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+                <br>
+                <label for="">Ingrese Nombre: <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+                </br>
+                <label for="">Ingrese Apellido: <input type="text" name="apellido" id="apellido" placeholder="APELLIDO" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+                </br>   
+                <label for="">Ingrese nombre del curso: <input type="text" name="curso"  id="curso" placeholder="CURSO" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+                </br>
+                <label for="">Ingrese nota 1: <input type="text" name="nota1"  id="nota1" placeholder="NOTA 1" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required></label><br>
+                </br>
+                <label for="">Ingrese nota 2: <input type="text" name="nota2"  id="nota2" placeholder="NOTA 2" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+                </br>
+                <label for="">Ingrese nota 3: <input type="text" name="nota3"  id="nota3" placeholder="NOTA 3" style="text-transform:uppercase;" value=""  onkeyup="javascript:this.value=this.value.toUpperCase();" required><br></label>
+        
+                    
+            <button type="submit" id="btnActualizar">Actualizar</button><br>
+            <br>
+        </div>
+        </form>
+
+        
+
+        
+    
+
+
+
+
+
+
+    <script src="/JS/APP.JS"> </script>
+</body>
+</html>
